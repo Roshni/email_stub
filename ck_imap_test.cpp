@@ -62,7 +62,6 @@ int main()
 		
 	f.close();
 
-//	success = imap.Login("roshnic.tutor@gmail.com","nji98uhb");
 	success = imap.Login(username.c_str(),password.c_str());
 	if (success != true) {
 	printf("%s\n",imap.lastErrorText());
